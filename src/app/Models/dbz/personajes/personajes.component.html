@@ -1,0 +1,12 @@
+<div class="fila">
+    <div class="columna">
+        <h3>Personajes </h3>
+        <hr>
+        <ul>
+            <li *ngFor="let Personajes of personaje">
+                {{Personajes.nombre.toUpperCase()}} - {{Personajes.poder | number }}
+            </li>
+        </ul>
+    </div>
+
+</div>

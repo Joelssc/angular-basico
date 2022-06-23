@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.fila {
+    display: flex;
+}
+
+.columna {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+input {
+    display: block;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+
+button:focus {
+    outline: none;
+}
+
+.p-1 {
+    padding: 1px;
+}
